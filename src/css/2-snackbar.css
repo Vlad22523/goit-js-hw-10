@@ -1,0 +1,75 @@
+@import url('./reset.css');
+
+body {
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+.delay {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.delay input {
+  border-radius: 4px;
+  border: 1px solid #808080;
+  width: 347px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.delay input:hover {
+  border: 1px solid #000;
+}
+
+fieldset {
+  display: flex;
+  width: 333px;
+  padding: 24 48px 12px 48px;
+  gap: 48px;
+  stroke-width: 1px #808080;
+  border-radius: 4px 4px 0 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+fieldset label {
+  display: flex;
+  align-items: center;
+}
+
+fieldset label input {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.form button {
+  border-radius: 8px;
+  background-color: #4e75ff;
+  border: none;
+  width: 360px;
+  padding: 8px 16px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  transition: all 200ms ease-in-out;
+}
+
+.form button:hover {
+  background-color: #6c8cff;
+}
+
+.iziToast-wrapper {
+  top: 0;
+  right: 0;
+}

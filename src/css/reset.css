@@ -1,4 +1,5 @@
 /* Reset styles */
+
 h1,
 h2,
 h3,
@@ -32,4 +33,30 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.go-back,
+.item-start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: rgb(73, 73, 182);
+  color: white;
+  margin-bottom: 15px;
+}
+
+.go-back,
+.start-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: rgb(99, 99, 208);
+  color: white;
+  margin-bottom: 15px;
 }
